@@ -1,0 +1,364 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Қысқаша теориялық материалдар</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Қысқаша теориялық </strong> материалдар</a>
+									
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+									<h2>Бір өлшемді массив. Бір өлшемді массив элементтерін енгізу және шығару. Белгіленген сипаттары бар элементті іздеу </h2>
+									</header>
+
+									
+
+<p class="A" style="text-indent:18.0pt"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;	">Массив дегеніміз – бір типтегі берілгендер жиыны. Басқаша
+айтқанда, массив – бір атауға біріктірілген айнымалылардың реттелген тізбегі.
+Айнымалылардың - массив элементтерінің типтері бірдей болады. Массив бір ғана
+атпен белгіленеді. Мысалы, нақты сандардан құрылған тізбекті R атаулы массив
+деуге болады. Мысалы:<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">1.6, 14.9, -5.0, 8.5,
+0.46 - ны бір өлшемді массив деп, оған А деп атау беруге болады. Массивтің әр
+элементі массивтің атымен белгіленеді де, оның индексі қойылады. Массив&nbsp; элементтері индекстері бойынша реттеліп
+жазылады. Мысалы, А<sub>1</sub>,А<sub>2</sub>,…,А<sub>n</sub> немесе жалпы
+түрде А<sub>і</sub>,і=1,2,…,n. <o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">Массивті жариялаған кезде
+массивтің атауын, массив элементтерінің типін көрсетеміз. Массивтің өлшемі
+көрсетілмейді, ол кез келген уақытта жаңа элементтерді қосу арқылы кеңейтілуі
+мүмкін. Массивті Python-да пайдалану үшін array стандартты модулін импорттау
+қажет. <o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">Python программасындағы
+қызметтік сөздер: 'and',&nbsp;'or',&nbsp;'in',&nbsp;'is',&nbsp;'not',&nbsp;'if',&nbsp;'else',&nbsp;'elif',&nbsp;
+'assert',&nbsp; 'break',&nbsp; 'continue',&nbsp; 'def',&nbsp; 'del',&nbsp;
+'for',&nbsp;
+'from',&nbsp;'while',&nbsp;&nbsp;'import',&nbsp;'print',&nbsp;'return'.<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">&nbsp;Модуль– функцияларды, нысандарды, кластарды
+қамтитын дайын программалар. Мы са лы:<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">&nbsp;import&nbsp;array&nbsp;as&nbsp;arr<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">&nbsp;a&nbsp;=&nbsp;arr.array('i'), <o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">мұндағы&nbsp;arr –
+array&nbsp;модулін әрі қарай пайдалану үшін өзіміз қойған атау; a – қазіргі
+жағдайдағы массив атауы; i – массив элементінің типі (integer)<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">&nbsp;</span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">Массив элементтерінің
+мәнін енгізу және шығару үшін параметрі бар цикл қолданылады. <o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><i><span lang="CA" style="font-size:14.0pt;
+Times New Roman&quot;,serif;color:#111111"> Массив элементтерін енгізу<o:p></o:p></span></i></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">for&nbsp;i&nbsp;in&nbsp;range(0,10):<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">&nbsp;&nbsp; testArray.append(i) <o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">&nbsp;</span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><i><span lang="CA" style="font-size:14.0pt;
+Times New Roman&quot;,serif;color:#111111">Массив элементтерін шығару<o:p></o:p></span></i></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">&nbsp;for&nbsp;i&nbsp;in&nbsp;range(0,10): &nbsp; <o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">&nbsp;&nbsp;&nbsp; print(testArray[i]) <o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">&nbsp;</span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">Массивті жариялау үшін,
+массивтің атауын және айнымалылардың типін көрсету керек. Мысалы, массивті
+float типімен жариялайық: <o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">import&nbsp;array&nbsp;as&nbsp;arr
+<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">a&nbsp;=&nbsp;arr.array('f')<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;">&nbsp;</span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><i><span lang="KZ" style="font-size: 14pt;">Массивтермен жұмыс істейтін әдістер мен
+функциялар</span></i><i><span lang="KZ" style="font-size: 14pt;"><o:p></o:p></span></i></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><!--[if !supportLists]--><span lang="KZ" style="font-size: 10pt; font-family: Symbol;">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; </span></span><!--[endif]--><i><span lang="KZ" style="font-size: 14pt;">append(item)</span></i><i><span lang="KZ" style="font-size: 14pt;">:</span></i><span lang="KZ" style="font-size: 14pt;">
+item элементін тізім соңына қояды<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><!--[if !supportLists]--><span lang="KZ" style="font-size: 10pt; font-family: Symbol;">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; </span></span><!--[endif]--><i><span lang="KZ" style="font-size: 14pt;">insert(index, item)</span></i><i><span lang="KZ" style="font-size: 14pt;">:</span></i><span lang="KZ" style="font-size: 14pt;">
+item элементін тізім соңына index индексі бойынша қояды&nbsp;remove(item): item элементін жояды.<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><!--[if !supportLists]--><span lang="KZ" style="font-size: 10pt; font-family: Symbol;">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; </span></span><!--[endif]--><i><span lang="KZ" style="font-size: 14pt;">clear()</span></i><i><span lang="KZ" style="font-size: 14pt;">:</span></i><span lang="KZ" style="font-size: 14pt;"> тізімдегі барлық элементтерді
+жояды.<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><!--[if !supportLists]--><span lang="KZ" style="font-size: 10pt; font-family: Symbol;">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; </span></span><!--[endif]--><i><span lang="KZ" style="font-size: 14pt;">index(item)</span></i><i><span lang="KZ" style="font-size: 14pt;">:</span></i><span lang="KZ" style="font-size: 14pt;">
+item элементінің индексін қайтарады.<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><!--[if !supportLists]--><span lang="KZ" style="font-size: 10pt; font-family: Symbol;">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; </span></span><!--[endif]--><i><span lang="KZ" style="font-size: 14pt;">pop([index])</span></i><i><span lang="KZ" style="font-size: 14pt;">:</span></i><span lang="KZ" style="font-size: 14pt;">
+элементті index индексі бойынша жояды және қайтарады.<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><!--[if !supportLists]--><span lang="KZ" style="font-size: 10pt; font-family: Symbol;">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; </span></span><!--[endif]--><i><span lang="KZ" style="font-size: 14pt;">count(item)</span></i><i><span lang="KZ" style="font-size: 14pt;">:</span></i><span lang="KZ" style="font-size: 14pt;">
+тізімдегі элементтің пайда болу санын қайтарады<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><!--[if !supportLists]--><span lang="KZ" style="font-size: 10pt; font-family: Symbol;">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; </span></span><!--[endif]--><i><span lang="KZ" style="font-size: 14pt;">sort([key])</span></i><i><span lang="KZ" style="font-size: 14pt;">:</span></i><span lang="KZ" style="font-size: 14pt;">&nbsp;элементтерді
+сұрыптайды<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt"><!--[if !supportLists]--><span lang="KZ" style="font-size: 10pt; font-family: Symbol;">·<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; </span></span><!--[endif]--><i><span lang="KZ" style="font-size: 14pt;">reverse()</span></i><i><span lang="KZ" style="font-size: 14pt;">:</span></i><span lang="KZ" style="font-size: 14pt;">&nbsp;тізім элементтерін кері
+бағытта орналастырады.<o:p></o:p></span></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><span lang="KZ" style="font-size: 14pt;">&nbsp;</span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">Бір өлшемді массивтермен жұмыс
+істегенде, белгілі бір шарттармен элементтерді іздеу қажет болады. Бұл
+элементтердің жиынтығы арасында ең үлкен немесе ең аз элементті (максимум,
+минимум) табу, оң немесе теріс, жұп немесе тақ сандардың қосындысын есептеуге
+мысалдар келтіруге болады.<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><span lang="KZ">&nbsp;</span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">Си</span><span lang="CA" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;mso-ansi-language:
+CA"> тіліндегі массив ұғымы алгоритмдік тілдегі кесте ұғымына сәйкес келеді. </span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">Си тілінде
+массивтің өлшемін – тұрақты арқылы (#define size 5) – көрсетуге болады. Басқа
+программалау тілдеріндегі тәрізді массив элементтерін енгізу, массив
+элементтеріне операциялар қолдану және массив элементтерін шығару (есеп шартына
+байланысты)&nbsp; қайталану командасы арқылы жазылады.
+Мысалы, массив элементтерінің сипатталуы: <o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">...<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">main()<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">{int
+a[size];<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:6.0pt;line-height:normal"><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">...<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">Массив элементтерін енгізу:<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">for
+(i=0; i&lt;size;i++)<o:p></o:p></span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">{
+printf("a[%i]=",i+1);<o:p></o:p></span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">scanf("%i",&amp;a[i]);
+}<o:p></o:p></span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">&nbsp;</span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">Массивтегі нөлдік емес элементтерді
+табатын программа бөлігі төмендегідей:<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">&nbsp;</span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">for
+(i=0; i&lt;size;i++)<o:p></o:p></span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">{
+if (a[i]!=0) n++; }<o:p></o:p></span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:36.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">&nbsp;</span></i></p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="KZ" style="font-size:14.0ptfont-family:&quot;Times New Roman&quot;,serif;color:#111111;">Егер есеп шартында массив элементтерін&nbsp; шығару талап етілсе, онда ол қайталану
+операторларының бірін арқылы жүзеге асырылады.<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal">
+
+
+</p><p style="margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm"><span lang="KZ" style="font-size:14.0pt"> </span><span lang="CA" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;
+Times New Roman&quot;,serif;color:#111111">СИ тілінде массив элементтерінің индексі алгоритмдік тілдегі
+тәрізді тік жақшаға алынып жазылады, мысалы, А[і]. Жоғарыдағы массивте А[</span><span lang="KZ" style="font-size:14.0pt">0</span><span lang="CA" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;
+Times New Roman&quot;,serif;color:#111111">]=1.6, А[</span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">1</span><span lang="CA" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;;">]=14.9 және т.с.с. мәндер
+қабылдайды.</span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111"> Си тілінде массив
+элементтерінің индекстері 0-ден бастап нөмірленеді.&nbsp;&nbsp;<o:p></o:p></span></p>
+
+
+
+									<hr class="major" />
+
+									
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Мазмұны</h2>
+									</header>
+									<ul>
+										<li>
+											<span class="opener">Алгоритм және оның қасиеттері. Алгоритмнің түрлері</span>
+											<ul>
+												<li><a href="1.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="1.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="1.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Сызықтық алгоритмді программалау</span>
+											<ul>
+												<li><a href="2.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="2.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="2.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+											</li>
+												<li>
+											<span class="opener">Тармақталу алгоритімін программалау</span>
+											<ul>
+												<li><a href="3.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="3.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="3.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Кіріктірілген шарттарды программалау. Құрамды шарттарды программалау</span>
+											<ul>
+												<li><a href="4.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="4.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="4.1.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Таңдау операторы</span>
+											<ul>
+												<li><a href="5.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="5.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="5.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Параметрлі программалау, for операторы</span>
+											<ul>
+												<li><a href="6.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="6.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="6.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+                                        <li>
+											<span class="opener">Соңғы шарт бойынша циклдер</span>
+											<ul>
+												<li><a href="7.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="7.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="7.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Алғы шартты циклі және While операторы</span>
+											<ul>
+												<li><a href="8.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="8.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="8.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Ішкі программаларды құру және оларды қолдану</span>
+											<ul>
+												<li><a href="9.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="9.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="9.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Бір өлшемді массив. Бір өлшемді массив элементтерін енгізу және шығару.Белгіленген сипаттары бар элементті іздеу</span>
+											<ul>
+												<li><a href="10.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="10.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="10.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+
+										<li>
+											<span class="opener">Бір өлшемді массив элементтердің орнын ауыстыру.Бір өлшемді массив элементтерін сұрыптау</span>
+											<ul>
+												<li><a href="11.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="11.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="11.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										
+										
+										<li>
+											<span class="opener">Екі өлшемді массив. Екі өлшемді массив элементтерін енгізу және шығару</span>
+											<ul>
+												<li><a href="12.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="12.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="12.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Екі өлшемді массив элементтерін сұрыптау, жолды өшіру</span>
+											<ul>
+												<li><a href="13.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="13.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="13.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Python программалау тілінде PyGame кітапханасы және С++ программалау тілінде графикамен жұмыс.</span>
+											<ul>
+												<li><a href="14.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="14.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="14.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+
+										
+										<li>
+											<span class="opener">Артқы фон мен ойын кейіпкерлер. Анимация</span>
+											<ul>
+												<li><a href="15.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="15.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="15.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+
+
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<!--section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<!--section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+										<li class="icon solid fa-phone">(000) 000-0000</li>
+										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+										Nashville, TN 00000-0000</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

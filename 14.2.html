@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Өз бетінше жұмыс</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Өз бетінше </strong>жұмыс</a>
+
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+									<h2>Python программалау тілінде PyGame кітапханасы және С++ программалау тілінде графикамен жұмыс. Графикалық примитивтермен жұмыс</h2>
+									</header>
+
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><b style="text-align: justify; text-indent: 1cm;"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">1-мысал.</span></i></b><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;"> PyGame кітапханасы тақырыбына «Алтын адам» есебін беруге болады.
+Қазіргі таңда «Алтын адам»ды ҚР Ұлттық музейінен көруге болады. Сондай-ақ
+виртуалды турдан да тамашалауға болады [191]. Графикамен жұмыс істеу үшін
+PyGame модулін жүктейміз.<br></span><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: justify; text-indent: 1cm;">&nbsp;</span><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:21.95pt"><td width="425" valign="top" style="width:318.7pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:21.95pt"><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">Python программалау тіліндегі программа коды</span><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;"> </span><span style="font-size: 10pt; background: white;"><o:p></o:p></span></p></td></tr><tr><td width="425" valign="top" style="width:318.7pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt"><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">import pygame<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.init()<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">screen=pygame.display.set_mode([1000,500])<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">screen.fill([255,255,255])<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">muzey_sur=pygame.image.load('mz.png').convert()<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">muzey_sur.set_colorkey((255,255,255))<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">muzey_rect=muzey_sur.get_rect(center=(200,300))<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">screen.blit(muzey_sur,muzey_rect)<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.display.update()<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">running=True<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">while running:<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">&nbsp;&nbsp;&nbsp; for
+  event in pygame.event.get():<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  if event.type==pygame.QUIT:<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  running==False<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.quit()<o:p></o:p></span></p></td></tr></tbody></table><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">Python программалау тілінде суретті жүктеу 1,
+2-суреттерде көрсетілген.<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">&nbsp;<br></span><img width="523" height="247" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg" v:shapes="Рисунок_x0020_225" style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;"><br><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">Сурет 1 – «Алтын адам» суретін жүктеу<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><img width="465" height="247" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg" v:shapes="Рисунок_x0020_224" style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;"><br><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">Сурет 2 - </span><i style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">&nbsp;</i><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">Алынған
+нәтиже<br></span><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><b style="text-align: justify; text-indent: 1cm;"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">2-мысал.</span></i></b><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;"> PyGame кітапханасы pygame.draw командасының қызметімен
+танысу үшін қазақ үйдің суретін салу үшін графикалық примитивтерді пайдалайық.
+Python программалау тілінде қазақ үйдің суретін графикалық примитивтер арқылы
+салу 3, 4-суреттерде көрсетілген.<br></span><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: justify; text-indent: 1cm;">&nbsp;</span><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:21.95pt"><td width="425" valign="top" style="width:318.7pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:21.95pt"><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">Python программалау тіліндегі программа коды</span><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;"> </span><span style="font-size: 10pt; background: white;"><o:p></o:p></span></p></td></tr><tr><td width="425" valign="top" style="width:318.7pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt"><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">import pygame<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.init()<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">screen=pygame.display.set_mode([360,320])<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">screen.fill([250,255,255])<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.draw.rect(screen,[255,0,0],[80,150,
+  250,180],1)<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.draw.line(screen,[255,0,0],[80,150],[180,250],1)<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.draw.line(screen,[255,0,0],[330,150],[230,50],1)<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.draw.circle(screen,[255,0,0],[205,50],25,1)<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.draw.rect(screen,[255,0,0],[150,175,130,180],1)<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.draw.line(screen,[255,0,0],[220,175],
+  [220,320],1)<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; background: white;">pygame.display.flip()<o:p></o:p></span></p></td></tr></tbody></table><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-indent: 1cm;">&nbsp;<br></span><img width="504" height="212" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg" v:shapes="Рисунок_x0020_223" style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;"><br><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">Сурет</span><span lang="EN-US" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;"> 3 – </span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">Қазақ</span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;"> </span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">үйдің</span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;"> </span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">суретін</span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;"> </span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">салу<br></span><i style="text-align: center;"><span lang="EN-US" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;background:white;mso-ansi-language:
+EN-US"><o:p>&nbsp;<br></o:p></span></i><img width="240" height="233" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg" v:shapes="Рисунок_x0020_222" style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;"><br><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">Сурет 4 - </span><i style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">&nbsp;</i><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">Алынған
+нәтиже<br></span><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">&nbsp;<br></span><b style="text-align: justify; text-indent: 1cm;"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">3-мысал.</span></i></b><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;"> </span><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);">Осы тақырыпқа Әл-Фарабидің математикалық
+мұрасындағы есептерден мысал келтірейік. Трапецияның үштен бір бөлігін бөліп
+алу беруге болады [189]. Осы есептің программа кодын С++ программалау тілінде
+көрсетейік.<br></span><img width="265" height="156" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png" v:shapes="Группа_x0020_228 Group_x0020_6 AutoShape_x0020_7 Group_x0020_8 AutoShape_x0020_9 AutoShape_x0020_10 AutoShape_x0020_11 AutoShape_x0020_12 AutoShape_x0020_13 AutoShape_x0020_14 Text_x0020_Box_x0020_15 Text_x0020_Box_x0020_16 Text_x0020_Box_x0020_17 Text_x0020_Box_x0020_18 Text_x0020_Box_x0020_19"><br><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">&nbsp;<br></span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">Сурет 5 - </span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);">Трапецияның
+үштен бір бөлігін бөліп алу<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">&nbsp;<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: justify; text-indent: 1cm;">Салу алгоритмі: Егер
+ол ABCD трапециясының үштен бір бөлігін қалай бөліп алуға болады десе,
+онда</span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: justify; text-indent: 1cm;">&nbsp; </span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: justify; text-indent: 1cm;">АС мен BD-ні қосамыз. Олар Е
+нүктесінде қиылыссын. Егер BE сызығы BD-нің үштен бірі болса, онда ABCD
+фигурасынан үштен бір бөліктің бөлінгені; бұл - ABD үшбұрышы.<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: justify; text-indent: 1cm;">Координаталар:
+A(x1,y1), B(x2,y2), C(x3,y3), D(x4,y4), E(x,y); Формулалар:<br></span><span style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);"><img width="261" height="24" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image011.png" v:shapes="Рисунок_x0020_221"></span><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);">&nbsp; – екі нүктенің ара қашықтығын табу<br></span><span lang="KZ" style="text-align: justify; text-indent: 1cm;"><img width="9" height="29" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png" v:shapes="Группа_x0020_226 Rectangle_x0020_7427"></span><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);">&nbsp;</span><span style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);"><img width="43" height="9" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png" v:shapes="Рисунок_x0020_220"><br></span><span style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);"><img width="79" height="19" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image016.png" v:shapes="Рисунок_x0020_219"></span><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);">&nbsp;&nbsp;&nbsp; – үшбұрыштың&nbsp; жарты периметрі<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: justify; text-indent: 1cm;">&nbsp;<br></span><span style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);"><img width="235" height="24" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image018.png" v:shapes="Рисунок_x0020_218"></span><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);">&nbsp;– Герон формуласы<br></span><span style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);"><img width="135" height="39" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image020.png" v:shapes="Рисунок_x0020_217"></span><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);">&nbsp;– екі түзудің қиылысу нүктесін табу&nbsp;<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><img width="588" height="422" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image022.jpg" v:shapes="Рисунок_x0020_216" style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;"><br><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">Сурет 6 - </span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);">Трапецияның
+үштен бір бөлігін бөліп алу<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">&nbsp;<br></span><img width="502" height="311" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image024.jpg" v:shapes="Рисунок_x0020_215" style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;"><br><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">&nbsp;<br></span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">Сурет 7 - </span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);">Трапеция
+төбелерінің координаталарын енгізу<br></span><span style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;">&nbsp;<br></span><img width="544" height="336" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image026.jpg" v:shapes="Рисунок_x0020_214" style="color: rgb(17, 17, 17); font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt; text-align: center;"><br><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; background: white;">Сурет 8 - </span><span lang="KZ" style="text-align: center; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111; color: rgb(17, 17, 17);">Берілген
+мәліметтер бойынша салынған трапеция<br></span><span style="background-color: white; font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><b style="text-align: justify; text-indent: 1cm;"><i><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif">4-мысал</span></i></b><b style="text-align: justify; text-indent: 1cm;"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif">. </span></b><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">С++ программалау
+тілінде Күн планетасын эллипс бойымен айналып тұрған планеталарды бейнелейтін программа
+құрайық.<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><pre><code><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include&lt;graphics.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include &lt;stdio.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include&lt;stdlib.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include &lt;conio.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include&lt;dos.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">void main ()<br></span><span lang="EN-US" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">{</span><span lang="EN-US" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;"> </span><span lang="EN-US" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">int k,r;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">int gdriver=DETECT;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">int gmode,errorcode;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">initgraph(&amp;gdriver,&amp;gmode,"C:\\turboc30\\bgi\\");<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">errorcode=graphresult();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">if (errorcode !=grOk)<br></span><span lang="EN-US" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">{</span><span lang="EN-US" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;"> </span><span lang="EN-US" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">printf("Kate:
+%d\n",errorcode);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">getch();<br></span><span lang="EN-US" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">exit(1);</span><span lang="EN-US" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;"> </span><span lang="EN-US" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">}<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">do {<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">setcolor(6);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">ellipse(160,100,0,360,100,60);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">setcolor(14);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(160,100,20);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">setfillstyle(1,14);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">floodfill(160,100,14); delay(900);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(60,100,20);</span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;
+</span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(100);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(80,65,20); delay(100);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(100,50,20); clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(130,43,20);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(160,40,20); clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(190,43,20);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(220,50,20); clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(240,65,20);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(260,100,20); clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(245,135,20);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(220,155,20); clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(190,158,20);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(160,160,20);clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(130,158,20);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(100,155,20); clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">circle(80,145,20); clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(200);
+}<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">while
+(13);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">getch();<br></span><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">closegraph();</span><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;"> </span><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">}<br></span></pre></code><b style="text-align: justify; text-indent: 1cm;"><i><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif">&nbsp;<br></span></i></b><b style="text-align: justify; text-indent: 1cm;"><i><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif">5-мысал.</span></i></b><b style="text-align: justify; text-indent: 1cm;"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif"> </span></b><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">С++ программалау
+тілінде түстердің ауысуын дыбыспен ұштастыратын программа құрайық.<br></span><pre><code><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include
+&lt;stdio.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include
+&lt;conio.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include&lt;dos.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">void
+main ()<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">{</span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp; </span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">int i,j;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">clrscr();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">textbackground(2);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">sound(50);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">for(i=1;
+i&lt;=40; i++)<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">{
+textcolor(i+1);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">cprintf("
+",2*i);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">cprintf("Happy
+New Year\n");<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">delay(10);
+}<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">nosound;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">getch();}<br></span></pre></code><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">&nbsp;<br></span><b style="text-align: justify; text-indent: 1cm;"><i><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif">6-мысал</span></i></b><b style="text-align: justify; text-indent: 1cm;"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif">. </span></b><span lang="KZ" style="text-align: justify; text-indent: 1cm; font-size: 14pt; font-family: &quot;Times New Roman&quot;,serif;color:#111111;">С++ программалау
+тілінде үйдің суретін бейнелейтін программа құрайық.<br></span><b style="text-align: justify; text-indent: 1cm;"><pre><code><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif">&nbsp;<br></span></b><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include
+&lt;stdio.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include
+&lt;stdlib.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include
+&lt;graphics.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#include
+&lt;conio.h&gt;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">#define
+PATHDRIVER "d:\\TC\\bgi"<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">void
+main ()<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">{
+int gdriver=DETECT;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">int
+gmode,x,y;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">int
+errorcode;<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">initgraph(&amp;gdriver,&amp;gmode,
+PATHDRIVER);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">errorcode=graphresult();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">if
+(errorcode !=grOk)<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">{
+printf("Kate %d \n",errorcode);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">getch();<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">return;
+}<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">setbkcolor(6);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">setcolor(1);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">rectangle(100,220,400,430);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">line(100,220,250,120);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">line(250,120,400,220);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">rectangle(150,280,250,350);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">line(200,280,200,350);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">line(150,315,250,315);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">rectangle(300,300,360,410);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">line(350,350,350,360);<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">outtextxy(420,450,"dom");<br></span><span style="font-family: &quot;Times New Roman&quot;,serif;color:#111111; font-size: 14pt;">getch();</span><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+27.0pt;line-height:normal"><span lang="KZ" style="font-size:14.0pt;line-height:110%;font-family:&quot;Times New Roman&quot;,serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:KZ;mso-fareast-language:
+RU;mso-bidi-language:AR-SA">closegraph();}&nbsp;</span></code></pre></p></blockquote><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal"><span style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111;mso-ansi-language:RU;
+mso-no-proof:yes"><!--[endif]--></span></p>
+		
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+							<nav id="menu">
+                  <header class="major">
+                    <h2>Мазмұны</h2>
+                  </header>
+                  <ul>
+                    <li>
+                      <span class="opener">Алгоритм және оның қасиеттері. Алгоритмнің түрлері</span>
+                      <ul>
+                        <li><a href="1.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="1.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="1.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Сызықтық алгоритмді программалау</span>
+                      <ul>
+                        <li><a href="2.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="2.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="2.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                      </li>
+                        <li>
+                      <span class="opener">Тармақталу алгоритімін программалау</span>
+                      <ul>
+                        <li><a href="3.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="3.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="3.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Кіріктірілген шарттарды программалау. Құрамды шарттарды программалау</span>
+                      <ul>
+                        <li><a href="4.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="4.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="4.1.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Таңдау операторы</span>
+                      <ul>
+                        <li><a href="5.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="5.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="5.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Параметрлі программалау, for операторы</span>
+                      <ul>
+                        <li><a href="6.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="6.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="6.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                                        <li>
+                      <span class="opener">Соңғы шарт бойынша циклдер</span>
+                      <ul>
+                        <li><a href="7.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="7.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="7.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Алғы шартты циклі және While операторы</span>
+                      <ul>
+                        <li><a href="8.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="8.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="8.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Ішкі программаларды құру және оларды қолдану</span>
+                      <ul>
+                        <li><a href="9.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="9.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="9.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Бір өлшемді массив. Бір өлшемді массив элементтерін енгізу және шығару.Белгіленген сипаттары бар элементті іздеу</span>
+                      <ul>
+                        <li><a href="10.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="10.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="10.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <span class="opener">Бір өлшемді массив элементтердің орнын ауыстыру.Бір өлшемді массив элементтерін сұрыптау</span>
+                      <ul>
+                        <li><a href="11.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="11.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="11.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    
+                    
+                    <li>
+                      <span class="opener">Екі өлшемді массив. Екі өлшемді массив элементтерін енгізу және шығару</span>
+                      <ul>
+                        <li><a href="12.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="12.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="12.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Екі өлшемді массив элементтерін сұрыптау, жолды өшіру</span>
+                      <ul>
+                        <li><a href="13.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="13.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="13.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Python программалау тілінде PyGame кітапханасы және С++ программалау тілінде графикамен жұмыс.</span>
+                      <ul>
+                        <li><a href="14.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="14.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="14.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+
+                    
+                    <li>
+                      <span class="opener">Артқы фон мен ойын кейіпкерлер. Анимация</span>
+                      <ul>
+                        <li><a href="15.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="15.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="15.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+
+
+                  </ul>
+                </nav>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

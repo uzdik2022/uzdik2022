@@ -1,0 +1,727 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Өз бетінше жұмыс</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Өз бетінше </strong>жұмыс</a>
+
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+									<h2>Екі өлшемді массив. Екі өлшемді массив элементтерін енгізу және шығару</h2>
+									</header>
+
+<img width="156" height="139" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg" align="left" hspace="12" v:shapes="Рисунок_x0020_52"><!--[endif]--><b><i><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111"><o:p></o:p></span></i></b></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:27.0pt;line-height:normal"><b><i><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">1–мысал.</span></i></b><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111"> <b><i>Ұлттық
+киімдер.</i></b> М.Әуезов атындағы театрда жұмыс атқаратын әртістердің ұлттық
+киімдерінің саны берілген.</span><span class="apple-converted-space"><span lang="KZ" style="font-family:&quot;Arial&quot;,sans-serif;color:#3C4043;background:white">&nbsp;
+</span></span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">Бірінші
+қатарда бас киімдер: айыр қалпақ, мұрақ, бөрік, сәукеле, кимешек; екінші&nbsp; қатарда киімдер: көйлек, ішік, шапан, тон,
+шалбар; үшінші қатарда аяқ қиімдер: саптама, етік, кебіс, жарма қоныш, жұмсақ
+табан берілген. Кейбір жетіспейтін киімдер теріс таңбалы сандармен көрсетілген.
+Әртістерге жалпы қанша киім жетіспейді? Бас киімдер, киімдер және аяқ
+киімдердің әрқайсысының жалпы саны қанша және олардың орташа саны қанша? <o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:27.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">Нұсқаулық</span></i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">. Бізге
+бүтін типті 3x5 екі өлшемді берілген.&nbsp;
+Массив элементтерін программа кодында енгізейік. Терсіс таңбалы
+сандардың қосындысын табамыз. Әр қатар бойынша массив элементтерінің қосындысын
+және олардың арифметикалық ортасын табамыз. <o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal"><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white">Есептің Pyt</span><span lang="KZ" style="font-size: 14pt; color:#111111;">h</span><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">on<i> </i></span><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white">программалау
+тіліндегі программа коды 1, 2 -суреттерде берілген. <o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+27.0pt;line-height:normal"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></i></p><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:21.95pt">
+  <td width="425" valign="top" style="width:318.7pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:21.95pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  36.9pt;line-height:normal;mso-layout-grid-align:none;text-autospace:none"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">Python программалау тіліндегі программа коды</span><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;"> </span><span style="font-size: 10pt; color:#111111;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="425" valign="top" style="width:318.7pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">print("Улттык киімдер
+  ")<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">a=[[4,7,-2,4,-5], [6, 8, 12,
+  -7,-4],[11,10, -6,9,-3]]<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">s1=0<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">s2=0<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">s3=0<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">k=0<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">k1=0<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">k2=0<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">k3=0<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">for i in range(len(a)):<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp; for j in range(len(a[i])):<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (a[i][j]&lt;0): k+=a[i][j];<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (i==0 and a[i][j]&gt;0):
+  s1+=a[i][j]<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; k1=s1/5<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (i==1 and a[i][j]&gt;0):
+  s2+=a[i][j]<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; k2=s2/5<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (i==2 and a[i][j]&gt;0):
+  s3+=a[i][j]<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; k3=s3/5<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">print("Жетіспейтін киімдер
+  саны =",k)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">print("Бас киімдер саны
+  =",s1," Орташа саны =",k1)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">print("Киімдер саны
+  =",s2," Орташа саны =",k2)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+  1.7pt;line-height:normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">print("Аяк киімдер саны
+  =",s3," Орташа саны =",k3)<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+27.0pt;line-height:normal"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal"><i><span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><!--[if gte vml 1]><v:shape
+ id="Рисунок_x0020_164" o:spid="_x0000_i1032" type="#_x0000_t75" style='width:345.75pt;
+ height:4in;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:\Users\User\AppData\Local\Temp\msohtmlclip1\01\clip_image003.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img width="461" height="384" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg" v:shapes="Рисунок_x0020_164"><!--[endif]--></span></i><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p></o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111">Сурет 1 - </span></span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">Бас киімдер,
+киімдер және аяқ киімдердің әрқайсысының жалпы санын, олардың орташа санын және
+жетіспейтін киімдердің санын экранға шығару<i><o:p></o:p></i></span></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><i><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white"><o:p>&nbsp;</o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:27.0pt;line-height:normal"><i><span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><!--[if gte vml 1]><v:shape
+ id="Рисунок_x0020_165" o:spid="_x0000_i1031" type="#_x0000_t75" style='width:318pt;
+ height:195pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:\Users\User\AppData\Local\Temp\msohtmlclip1\01\clip_image005.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img width="424" height="260" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg" v:shapes="Рисунок_x0020_165"><!--[endif]--></span></i><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p></o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111">Сурет </span></span><span class="annotator-hl"><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;
+mso-ansi-language:RU">2</span></span><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111"> -</span></span><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"> </span></i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">Алынған нәтиже</span><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white"><o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p>&nbsp;</o:p></span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal"><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white">Есептің </span><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white;
+mso-ansi-language:RU">С++ </span><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white">программалау тіліндегі программа
+коды </span><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;
+background:white;mso-ansi-language:RU">3, 4</span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white">
+-суреттерде берілген. <o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal"><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white"><o:p>&nbsp;</o:p></span></p><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:21.95pt">
+  <td width="29" valign="top" style="width:21.9pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:21.95pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size: 10pt; font-family: Cambria, serif; color:#111111;"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width="443" valign="top" style="width:332.25pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:21.95pt">
+  <p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:64.6pt;margin-bottom:.0001pt;line-height:normal;mso-layout-grid-align:
+  none;text-autospace:none"><span style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">С++</span><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;"> программалау тіліндегі программа </span><span style="font-size: 10pt; color:#111111;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="29" valign="top" style="width:21.9pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">1<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">2<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">3<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">4<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">5<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">6<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">7<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">8<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">9<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">10<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">11<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">12<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">13<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">14<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">15<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">16<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">17<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">18<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">19<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">20<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">21<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">22<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">23<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width="443" valign="top" style="width:332.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">#include &lt;iostream&gt;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">#include &lt;stdio.h&gt;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">using namespace std;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">int main(int argc, char** argv) {<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;int
+  n=3, m=5, i,j,s1=0,s2=0,s3=0,k=0;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;float
+  k1=0,k2=0,k3=0;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;int
+  a[n][m]={{4,7,-2,4,-5},{6, 8, 12, -7,-4},{11,10, -6,9,-3}};<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;cout&lt;&lt;"Ultik kuimder \n";<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;for
+  (i=0; i&lt;n; i++)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;for
+  (j=0; j&lt;m; j++)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;{<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;if
+  (a[i][j]&lt;0) k+=a[i][j];<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;if
+  (i==0 &amp;&amp; a[i][j]&gt;0) s1+=a[i][j];<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;if
+  (i==1 &amp;&amp; a[i][j]&gt;0) s2+=a[i][j];<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;if
+  (i==2 &amp;&amp; a[i][j]&gt;0) s3+=a[i][j];<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;}<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;k1=s1/5; k2=s2/5;k3=s3/5;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;cout&lt;&lt;"Zhetispeitin kuimder sani=
+  "&lt;&lt;k&lt;&lt;"\n";<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;cout&lt;&lt;"Bas kuimder sani=
+  "&lt;&lt;s1; printf(" Ortasha sani =%2.3f",k1);<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;cout&lt;&lt;"\nKuimder sani=
+  "&lt;&lt;s2; printf(" Ortasha sani =%2.3f",k2);<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;cout&lt;&lt;"\nAyak kuimder sani=
+  "&lt;&lt;s3; printf(" Ortasha sani =%2.3f",k3);<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;</span><span style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">system("pause");<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">}<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><i><span lang="EN-US" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><i><span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><!--[if gte vml 1]><v:shape id="Рисунок_x0020_166" o:spid="_x0000_i1030"
+ type="#_x0000_t75" style='width:420.75pt;height:291.75pt;visibility:visible;
+ mso-wrap-style:square'>
+ <v:imagedata src="file:///C:\Users\User\AppData\Local\Temp\msohtmlclip1\01\clip_image007.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img width="561" height="389" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg" v:shapes="Рисунок_x0020_166"><!--[endif]--></span></i><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p></o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111">Сурет 3 -</span></span><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"> </span></i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">C++ программалау тілінде </span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">бас киімдер,
+киімдер және аяқ киімдердің әрқайсысының жалпы санын, олардың орташа санын және
+жетіспейтін киімдердің санын экранға шығару<o:p></o:p></span></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:27.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">&nbsp;</span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><i><span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><!--[if gte vml 1]><v:shape id="Рисунок_x0020_167" o:spid="_x0000_i1029"
+ type="#_x0000_t75" style='width:351.75pt;height:121.5pt;visibility:visible;
+ mso-wrap-style:square'>
+ <v:imagedata src="file:///C:\Users\User\AppData\Local\Temp\msohtmlclip1\01\clip_image009.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img width="469" height="162" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png" v:shapes="Рисунок_x0020_167"><!--[endif]--></span></i><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p></o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111">Сурет 4 -</span></span><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"> </span></i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">Алынған нәтиже</span><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white"><o:p></o:p></span></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p>&nbsp;</o:p></span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:27.0pt;line-height:normal"><b><i><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">2 – мысал.</span></i></b><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111"> <b><i>Ұлттық
+ойындар.</i></b> Наурыз мейрамына қарсы алаңда ұлттық ойындар ойнату
+ойластырылды. Ұлттық ойындарға үш топ дайындалуда. Әр ойынға әр топтан бірнеше
+қатысушы қатысуға болады. Ойын түрлері: Қыз қуу, Көкпар, Ақсүйек, Арқан тартыс,
+Бәйге, Қазақ күресі, Тоғызқұмалақ, Теңге алу. Әр топтың қатысушыларының санын
+және K позициясынан үлкен қатысушыларды экранға шығаратын программа құрайық. <o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal"><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white">Есептің Pyt</span><span lang="KZ" style="font-size: 14pt; color:#111111;">h</span><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">on<i> </i></span><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white">программалау
+тіліндегі программа коды 5, 6 -суреттерде берілген. <o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+27.0pt;line-height:normal"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p>&nbsp;</o:p></span></i></p><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:21.95pt">
+  <td width="359" valign="top" style="width:269.1pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:21.95pt">
+  <p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:15.65pt;margin-bottom:.0001pt;line-height:normal;mso-layout-grid-align:
+  none;text-autospace:none"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">Python программалау тіліндегі
+  программа коды</span><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;"> </span><span style="font-size: 10pt; color:#111111;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="359" valign="top" style="width:269.1pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">print("Улттык ойынга катысушылар")<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">a=[[2,1,3,4,2,3,1,2],[2,3,2,3,2,3,2,3],[2,3,4,5,4,3,2,5]]<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">for i in range(len(a)):<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp; s=0<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp; for j
+  in range(len(a[i])):<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  s+=a[i][j]<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp;
+  print("%3d" % s," ")<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">k=int(input("K позициясын енгіз
+  ="))&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">for i in range(len(a)):<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp; for j
+  in range(len(a[i])):<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 10pt; font-family: Cambria, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  if (a[i][j]&gt;k): print("K -дан улкен ",a[i][j],"
+  ")<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal"><span lang="KZ" style="font-size:
+14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white"><o:p>&nbsp;</o:p></span></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal"><i><span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><!--[if gte vml 1]><v:shape
+ id="Рисунок_x0020_168" o:spid="_x0000_i1028" type="#_x0000_t75" style='width:418.5pt;
+ height:174.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:\Users\User\AppData\Local\Temp\msohtmlclip1\01\clip_image010.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img width="558" height="233" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image011.jpg" v:shapes="Рисунок_x0020_168"><!--[endif]--></span></i><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p></o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111">Сурет 5 -</span></span><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"> </span></i><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">&nbsp;</span></span><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">Ә</span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">р топтың
+қатысушыларының санын және K позициясынан үлкен қатысушыларды экранға шығару<i><o:p></o:p></i></span></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:27.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">&nbsp;</span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><i><span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><!--[if gte vml 1]><v:shape id="Рисунок_x0020_169" o:spid="_x0000_i1027"
+ type="#_x0000_t75" style='width:264pt;height:217.5pt;visibility:visible;
+ mso-wrap-style:square'>
+ <v:imagedata src="file:///C:\Users\User\AppData\Local\Temp\msohtmlclip1\01\clip_image012.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img width="352" height="290" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image013.jpg" v:shapes="Рисунок_x0020_169"><!--[endif]--></span></i><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p></o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111">Сурет </span></span><span class="annotator-hl"><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;
+mso-ansi-language:RU">6</span></span><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111"> -</span></span><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"> </span></i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">Алынған нәтиже</span><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white"><o:p></o:p></span></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p>&nbsp;</o:p></span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">&nbsp; </span></i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:
+white">Есептің </span><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;
+background:white;mso-ansi-language:RU">С++ </span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white">программалау
+тіліндегі программа коды </span><span style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;
+background:white;mso-ansi-language:RU">7, 8</span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white">
+-суреттерде берілген. <o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">&nbsp;<o:p></o:p></span></i></p><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:21.95pt">
+  <td width="31" valign="top" style="width:23.0pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:21.95pt">
+  <p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:15.65pt;margin-bottom:.0001pt;line-height:normal;mso-layout-grid-align:
+  none;text-autospace:none"><span style="font-size: 11pt; font-family: Cambria, serif; color:#111111;"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width="338" valign="top" style="width:253.2pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:21.95pt">
+  <p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:15.65pt;margin-bottom:.0001pt;line-height:normal;mso-layout-grid-align:
+  none;text-autospace:none"><span style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">С++</span><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;"> программалау
+  тіліндегі программа </span><span style="font-size: 11pt; color:#111111;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="31" valign="top" style="width:23.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">1<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">2<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">3<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">4<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">5<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">6<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">7<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">8<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">9<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">10<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">11<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">12<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">13<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">14<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">15<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">16<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">17<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">18<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">19<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">20<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="EN-US" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width="338" valign="top" style="width:253.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">#include
+  &lt;iostream&gt;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">using namespace
+  std;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">int main(int argc,
+  char** argv) {<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;int n=3, m=8, i,j,k;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;int a[n][m],b[n];<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;cout&lt;&lt;"Ultik oyindardin
+  katisushilsri \n";<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;for (i=0; i&lt;n; i++)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;for (j=0; j&lt;m; j++)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;cin&gt;&gt;a[i][j];<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;for (i=0; i&lt;n; i++)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">{ int s=0;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;for (j=0; j&lt;m; j++)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;{ s+=a[i][j]; }<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;cout&lt;&lt;"S="&lt;&lt;s&lt;&lt;"\n";}<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;cout&lt;&lt;"K pozisyasin engiz
+  \n";<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;cin&gt;&gt;k;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp; for (i=0; i&lt;n; i++)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;for (j=0; j&lt;m; j++)<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;if (a[i][j]&gt;k)
+  cout&lt;&lt;a[i][j]&lt;&lt;" ";<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span lang="KZ" style="font-size: 11pt; font-family: Cambria, serif; color:#111111;">&nbsp;system("pause");}<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p>&nbsp;</o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></i><i><span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><!--[if gte vml 1]><v:shape
+ id="Рисунок_x0020_161" o:spid="_x0000_i1026" type="#_x0000_t75" style='width:352.5pt;
+ height:274.5pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:\Users\User\AppData\Local\Temp\msohtmlclip1\01\clip_image014.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img width="470" height="366" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image015.jpg" v:shapes="Рисунок_x0020_161"><!--[endif]--></span></i><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p></o:p></span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111">Сурет 7 -</span></span><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"> </span></i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">C++ программалау тілінде </span><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">әр топтың
+қатысушыларының санын және K позициясынан үлкен қатысушыларды экранға шығару<i><o:p></o:p></i></span></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:27.0pt;line-height:normal"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#111111">&nbsp;</span></i></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><i><span style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><!--[if gte vml 1]><v:shape id="Рисунок_x0020_170" o:spid="_x0000_i1025"
+ type="#_x0000_t75" style='width:400.5pt;height:157.5pt;visibility:visible;
+ mso-wrap-style:square'>
+ <v:imagedata src="file:///C:\Users\User\AppData\Local\Temp\msohtmlclip1\01\clip_image016.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img width="534" height="210" src="file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image016.png" v:shapes="Рисунок_x0020_170"><!--[endif]--></span></i><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"><o:p></o:p></span></i></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal">
+
+</p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal;mso-layout-grid-align:none;text-autospace:
+none"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111">Сурет 8 -</span></span><i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;"> </span></i><span lang="KZ" style="font-size: 14pt; font-family: &quot;Times New Roman&quot;, serif; color:#111111;">Алынған нәтиже</span><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;,serif;color:#111111;background:white"><o:p></o:p></span></p>
+		
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+                  <header class="major">
+                    <h2>Мазмұны</h2>
+                  </header>
+                  <ul>
+                    <li>
+                      <span class="opener">Алгоритм және оның қасиеттері. Алгоритмнің түрлері</span>
+                      <ul>
+                        <li><a href="1.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="1.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="1.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Сызықтық алгоритмді программалау</span>
+                      <ul>
+                        <li><a href="2.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="2.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="2.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                      </li>
+                        <li>
+                      <span class="opener">Тармақталу алгоритімін программалау</span>
+                      <ul>
+                        <li><a href="3.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="3.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="3.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Кіріктірілген шарттарды программалау. Құрамды шарттарды программалау</span>
+                      <ul>
+                        <li><a href="4.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="4.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="4.1.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Таңдау операторы</span>
+                      <ul>
+                        <li><a href="5.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="5.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="5.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Параметрлі программалау, for операторы</span>
+                      <ul>
+                        <li><a href="6.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="6.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="6.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                                        <li>
+                      <span class="opener">Соңғы шарт бойынша циклдер</span>
+                      <ul>
+                        <li><a href="7.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="7.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="7.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Алғы шартты циклі және While операторы</span>
+                      <ul>
+                        <li><a href="8.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="8.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="8.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Ішкі программаларды құру және оларды қолдану</span>
+                      <ul>
+                        <li><a href="9.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="9.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="9.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Бір өлшемді массив. Бір өлшемді массив элементтерін енгізу және шығару.Белгіленген сипаттары бар элементті іздеу</span>
+                      <ul>
+                        <li><a href="10.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="10.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="10.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <span class="opener">Бір өлшемді массив элементтердің орнын ауыстыру.Бір өлшемді массив элементтерін сұрыптау</span>
+                      <ul>
+                        <li><a href="11.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="11.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="11.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    
+                    
+                    <li>
+                      <span class="opener">Екі өлшемді массив. Екі өлшемді массив элементтерін енгізу және шығару</span>
+                      <ul>
+                        <li><a href="12.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="12.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="12.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Екі өлшемді массив элементтерін сұрыптау, жолды өшіру</span>
+                      <ul>
+                        <li><a href="13.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="13.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="13.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="opener">Python программалау тілінде PyGame кітапханасы және С++ программалау тілінде графикамен жұмыс.</span>
+                      <ul>
+                        <li><a href="14.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="14.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="14.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+
+                    
+                    <li>
+                      <span class="opener">Артқы фон мен ойын кейіпкерлер. Анимация</span>
+                      <ul>
+                        <li><a href="15.1.html">Қысқаша теориялық материалдар</a></li>
+                        <li><a href="15.2.html">Демонстрациялық мысалдар</a></li>
+                        <li><a href="15.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+                      </ul>
+                    </li>
+
+
+                  </ul>
+                </nav>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

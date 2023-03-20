@@ -1,0 +1,720 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Қысқаша теориялық материалдар</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Қысқаша теориялық </strong> материалдар</a>
+									
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h2>Алғы шартты циклі және While операторы </h2>
+									</header>
+
+									
+
+<p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">Көпшілік
+жағдайларда қайталанудың бұл түрі Python және С++ тілдерінде алдын–ала берілген
+шарт бойынша қайталау While операторы арқылы&nbsp;
+жазылады. Бұл оператордағы қайталану саны программаның орындалуы
+барысында анықталады. While сөзінен кейінгі жазылған шарт жалған болғанша цикл
+денесі қайталана береді. Цикл аяқталуы үшін цикл денесінде оның аяқталу шартына
+әсер ететін құрылымы міндетті түрде болуы тиіс. Егер While сөзінен кейін
+жазылған шарт бірден сақталмайтын болса, онда қайталану денесі бірде бір рет
+орындалмай, қайталану командасы жұмысын аяқтауы мүмкін. Жуықтап есептеулерді
+ұйымдастыру, клавиатурадан немесе файлдардан мәліметтерді іздеу мен өңдеу
+есептерінде пайдаланылады. <o:p></o:p></span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">Python программалау
+тілінде&nbsp;өрнекті цикл ішінде орналастыру үшін while және цикл шарты
+жазылғаннан кейінгі жолдарда 4 бос орын тастап жазу қажет. Цикл ішіне
+орналасқан операторлар мен өрнектер цикл шарты жалған мәнін қабылдағанша
+ретімен орындала береді. Егер цикл шарты жалған болса, онда цикл денесі орындауды
+бастамай-ақ өз жұмысын тоқтатады.<o:p></o:p></span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">Оператордың
+Python программалау тілінде&nbsp; жазылу форматы:<o:p></o:p></span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><i><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></i></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><i><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;while
+шарт:<o:p></o:p></span></i></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><i><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+қайталанатын командалар сериясы<o:p></o:p></span></i></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">Мұны
+блок-схема түрінде былай көрсетуге болады (1-сурет):<o:p></o:p></span></span></p><table cellpadding="0" cellspacing="0" align="left">
+ <img width="320" height="213" src="imag2\image037.png" v:shapes="Группа_x0020_71 Line_x0020_5 Group_x0020_6 Rectangle_x0020_7 AutoShape_x0020_8 Rectangle_x0020_9 Rectangle_x0020_10 Line_x0020_11 Line_x0020_12 Line_x0020_13 Line_x0020_14 Line_x0020_15 Line_x0020_16"></td>
+ </tr>
+</tbody></table><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><!--[if gte vml 1]><v:group
+ id="Группа_x0020_71" o:spid="_x0000_s1026" style='position:absolute;left:0;
+ text-align:left;margin-left:99pt;margin-top:1.9pt;width:237.6pt;height:158.4pt;
+ z-index:251662336' coordorigin="4320,6480" coordsize="4752,3168" o:gfxdata="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
+">
+ <v:line id="Line_x0020_5" o:spid="_x0000_s1027" style='position:absolute;
+  flip:y;visibility:visible;mso-wrap-style:square' from="6192,6480" to="6192,7200"
+  o:connectortype="straight" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQC1AvwvxgAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9PawIx
+FMTvgt8hvEIvpWaV0tqtUUQoePDiH1Z6e928bpbdvKxJ1O23N4WCx2FmfsPMFr1txYV8qB0rGI8y
+EMSl0zVXCg77z+cpiBCRNbaOScEvBVjMh4MZ5tpdeUuXXaxEgnDIUYGJsculDKUhi2HkOuLk/Thv
+MSbpK6k9XhPctnKSZa/SYs1pwWBHK0NlsztbBXK6eTr55fdLUzTH47spyqL72ij1+NAvP0BE6uM9
+/N9eawVvE/j7kn6AnN8AAAD//wMAUEsBAi0AFAAGAAgAAAAhANvh9svuAAAAhQEAABMAAAAAAAAA
+AAAAAAAAAAAAAFtDb250ZW50X1R5cGVzXS54bWxQSwECLQAUAAYACAAAACEAWvQsW78AAAAVAQAA
+CwAAAAAAAAAAAAAAAAAfAQAAX3JlbHMvLnJlbHNQSwECLQAUAAYACAAAACEAtQL8L8YAAADbAAAA
+DwAAAAAAAAAAAAAAAAAHAgAAZHJzL2Rvd25yZXYueG1sUEsFBgAAAAADAAMAtwAAAPoCAAAAAA==
+"/>
+ <v:group id="Group_x0020_6" o:spid="_x0000_s1028" style='position:absolute;
+  left:4320;top:6768;width:4752;height:2880' coordorigin="4320,6480"
+  coordsize="4752,2880" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQDAMLnNxAAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9Pi8Iw
+FMTvC36H8ARva1rFVapRRFzxIIJ/QLw9mmdbbF5Kk23rt98sCHscZuY3zGLVmVI0VLvCsoJ4GIEg
+Tq0uOFNwvXx/zkA4j6yxtEwKXuRgtex9LDDRtuUTNWefiQBhl6CC3PsqkdKlORl0Q1sRB+9ha4M+
+yDqTusY2wE0pR1H0JQ0WHBZyrGiTU/o8/xgFuxbb9TjeNofnY/O6XybH2yEmpQb9bj0H4anz/+F3
+e68VTMfw9yX8ALn8BQAA//8DAFBLAQItABQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAAAAAAAAA
+AAAAAAAAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsA
+AAAAAAAAAAAAAAAAHwEAAF9yZWxzLy5yZWxzUEsBAi0AFAAGAAgAAAAhAMAwuc3EAAAA2wAAAA8A
+AAAAAAAAAAAAAAAABwIAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAAAwADALcAAAD4AgAAAAA=
+">
+  <v:rect id="Rectangle_x0020_7" o:spid="_x0000_s1029" style='position:absolute;
+   left:6192;top:8064;width:1584;height:576;visibility:visible;
+   mso-wrap-style:square;v-text-anchor:top' o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQAbDHiFxAAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9Ba8JA
+FITvgv9heUJvdVdro6bZiBSEQuvBWOj1kX0modm3Mbtq+u+7hYLHYWa+YbLNYFtxpd43jjXMpgoE
+celMw5WGz+PucQXCB2SDrWPS8EMeNvl4lGFq3I0PdC1CJSKEfYoa6hC6VEpf1mTRT11HHL2T6y2G
+KPtKmh5vEW5bOVcqkRYbjgs1dvRaU/ldXKwGTBbmvD89fRzfLwmuq0Htnr+U1g+TYfsCItAQ7uH/
+9pvRsFzA35f4A2T+CwAA//8DAFBLAQItABQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAAAAAAAAA
+AAAAAAAAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsA
+AAAAAAAAAAAAAAAAHwEAAF9yZWxzLy5yZWxzUEsBAi0AFAAGAAgAAAAhABsMeIXEAAAA2wAAAA8A
+AAAAAAAAAAAAAAAABwIAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAAAwADALcAAAD4AgAAAAA=
+" stroked="f">
+   <v:textbox>
+    <![if !mso]>
+    <table cellpadding=0 cellspacing=0 width="100%">
+     <tr>
+      <td><![endif]>
+      <div>
+      <p class=MsoNormal><span lang=KZ>(+)<span style='mso-spacerun:yes'>    
+      </span></span><span lang=CA style='mso-ansi-language:CA'>ия</span><span
+      lang=KZ><o:p></o:p></span></p>
+      </div>
+      <![if !mso]></td>
+     </tr>
+    </table>
+    <![endif]></v:textbox>
+  </v:rect><v:shapetype id="_x0000_t4" coordsize="21600,21600" o:spt="4"
+   path="m10800,l,10800,10800,21600,21600,10800xe">
+   <v:stroke joinstyle="miter"/>
+   <v:path gradientshapeok="t" o:connecttype="rect" textboxrect="5400,5400,16200,16200"/>
+  </v:shapetype><v:shape id="AutoShape_x0020_8" o:spid="_x0000_s1030" type="#_x0000_t4"
+   style='position:absolute;left:5328;top:6912;width:1728;height:1008;
+   visibility:visible;mso-wrap-style:square;v-text-anchor:top' o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQCX+y+awwAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9Ra8Iw
+FIXfhf2HcIW9aepgTjqjjMFApi9Wf8C1uTbdmpuaZG3990YQ9ng453yHs1wPthEd+VA7VjCbZiCI
+S6drrhQcD1+TBYgQkTU2jknBlQKsV0+jJeba9bynroiVSBAOOSowMba5lKE0ZDFMXUucvLPzFmOS
+vpLaY5/gtpEvWTaXFmtOCwZb+jRU/hZ/VsHPqTX9bnE5Z0XpO/m985vLfqvU83j4eAcRaYj/4Ud7
+oxW8vcL9S/oBcnUDAAD//wMAUEsBAi0AFAAGAAgAAAAhANvh9svuAAAAhQEAABMAAAAAAAAAAAAA
+AAAAAAAAAFtDb250ZW50X1R5cGVzXS54bWxQSwECLQAUAAYACAAAACEAWvQsW78AAAAVAQAACwAA
+AAAAAAAAAAAAAAAfAQAAX3JlbHMvLnJlbHNQSwECLQAUAAYACAAAACEAl/svmsMAAADbAAAADwAA
+AAAAAAAAAAAAAAAHAgAAZHJzL2Rvd25yZXYueG1sUEsFBgAAAAADAAMAtwAAAPcCAAAAAA==
+">
+   <v:textbox>
+    <![if !mso]>
+    <table cellpadding=0 cellspacing=0 width="100%">
+     <tr>
+      <td><![endif]>
+      <div>
+      <p class=MsoBodyText><span lang=KZ style='font-family:"Times New Roman",serif'>шарт<o:p></o:p></span></p>
+      </div>
+      <![if !mso]></td>
+     </tr>
+    </table>
+    <![endif]></v:textbox>
+  </v:shape><v:rect id="Rectangle_x0020_9" o:spid="_x0000_s1031" style='position:absolute;
+   left:5408;top:8496;width:1584;height:576;visibility:visible;
+   mso-wrap-style:square;v-text-anchor:top' o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQCn1ZXRwgAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9Bi8Iw
+FITvgv8hPMGbprrgajWKuCjrUevF27N5ttXmpTRRu/56Iyx4HGbmG2a2aEwp7lS7wrKCQT8CQZxa
+XXCm4JCse2MQziNrLC2Tgj9ysJi3WzOMtX3wju57n4kAYRejgtz7KpbSpTkZdH1bEQfvbGuDPsg6
+k7rGR4CbUg6jaCQNFhwWcqxolVN63d+MglMxPOBzl2wiM1l/+W2TXG7HH6W6nWY5BeGp8Z/wf/tX
+K/gewftL+AFy/gIAAP//AwBQSwECLQAUAAYACAAAACEA2+H2y+4AAACFAQAAEwAAAAAAAAAAAAAA
+AAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQItABQABgAIAAAAIQBa9CxbvwAAABUBAAALAAAA
+AAAAAAAAAAAAAB8BAABfcmVscy8ucmVsc1BLAQItABQABgAIAAAAIQCn1ZXRwgAAANsAAAAPAAAA
+AAAAAAAAAAAAAAcCAABkcnMvZG93bnJldi54bWxQSwUGAAAAAAMAAwC3AAAA9gIAAAAA
+">
+   <v:textbox>
+    <![if !mso]>
+    <table cellpadding=0 cellspacing=0 width="100%">
+     <tr>
+      <td><![endif]>
+      <div>
+      <p class=MsoNormal align=center style='text-align:center'><span lang=CA
+      style='mso-ansi-language:CA'>серия</span><span lang=KZ><o:p></o:p></span></p>
+      </div>
+      <![if !mso]></td>
+     </tr>
+    </table>
+    <![endif]></v:textbox>
+  </v:rect><v:rect id="Rectangle_x0020_10" o:spid="_x0000_s1032" style='position:absolute;
+   left:7056;top:7056;width:1728;height:576;visibility:visible;
+   mso-wrap-style:square;v-text-anchor:top' o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQDr3ubyxAAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9Pi8Iw
+FMTvC36H8ARva+KfrVqNIoIg7HpQF/b6aJ5tsXmpTdT67TcLCx6HmfkNs1i1thJ3anzpWMOgr0AQ
+Z86UnGv4Pm3fpyB8QDZYOSYNT/KwWnbeFpga9+AD3Y8hFxHCPkUNRQh1KqXPCrLo+64mjt7ZNRZD
+lE0uTYOPCLeVHCqVSIslx4UCa9oUlF2ON6sBk7G57s+jr9PnLcFZ3qrtx4/Sutdt13MQgdrwCv+3
+d0bDZAJ/X+IPkMtfAAAA//8DAFBLAQItABQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAAAAAAAAA
+AAAAAAAAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsA
+AAAAAAAAAAAAAAAAHwEAAF9yZWxzLy5yZWxzUEsBAi0AFAAGAAgAAAAhAOve5vLEAAAA2wAAAA8A
+AAAAAAAAAAAAAAAABwIAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAAAwADALcAAAD4AgAAAAA=
+" stroked="f">
+   <v:textbox>
+    <![if !mso]>
+    <table cellpadding=0 cellspacing=0 width="100%">
+     <tr>
+      <td><![endif]>
+      <div>
+      <p class=MsoNormal><span lang=KZ>(-)<span style='mso-spacerun:yes'>      
+      </span></span><span lang=CA style='mso-ansi-language:CA'>жо</span><span
+      lang=KZ>қ<span style='mso-spacerun:yes'>    </span><o:p></o:p></span></p>
+      </div>
+      <![if !mso]></td>
+     </tr>
+    </table>
+    <![endif]></v:textbox>
+  </v:rect><v:line id="Line_x0020_11" o:spid="_x0000_s1033" style='position:absolute;
+   visibility:visible;mso-wrap-style:square' from="7056,7424" to="9072,7424"
+   o:connectortype="straight" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQAREOGawQAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRE9LSwMx
+EL4L/ocwQm822x76WJsWcSl4qEJb8Txuxs3iZrJs4jb9985B6PHje2922XdqpCG2gQ3MpgUo4jrY
+lhsDH+f94wpUTMgWu8Bk4EoRdtv7uw2WNlz4SOMpNUpCOJZowKXUl1rH2pHHOA09sXDfYfCYBA6N
+tgNeJNx3el4UC+2xZWlw2NOLo/rn9OsNLF111EtdHc7v1djO1vktf36tjZk85OcnUIlyuon/3a9W
+fDJWvsgP0Ns/AAAA//8DAFBLAQItABQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAAAAAAAAAAAAA
+AAAAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAAAA
+AAAAAAAAAAAAHwEAAF9yZWxzLy5yZWxzUEsBAi0AFAAGAAgAAAAhABEQ4ZrBAAAA2wAAAA8AAAAA
+AAAAAAAAAAAABwIAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAAAwADALcAAAD1AgAAAAA=
+">
+   <v:stroke endarrow="block"/>
+  </v:line><v:line id="Line_x0020_12" o:spid="_x0000_s1034" style='position:absolute;
+   visibility:visible;mso-wrap-style:square' from="6192,7900" to="6192,8476"
+   o:connectortype="straight" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQB+XEQBxAAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9PawIx
+FMTvBb9DeEJvNasH7W6NUlwED7XgHzw/N6+bpZuXZRPX9Ns3QqHHYeY3wyzX0bZioN43jhVMJxkI
+4srphmsF59P25RWED8gaW8ek4Ic8rFejpyUW2t35QMMx1CKVsC9QgQmhK6T0lSGLfuI64uR9ud5i
+SLKvpe7xnsptK2dZNpcWG04LBjvaGKq+jzerYGHKg1zI8uP0WQ7NNI/7eLnmSj2P4/sbiEAx/If/
+6J1OXA6PL+kHyNUvAAAA//8DAFBLAQItABQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAAAAAAAAA
+AAAAAAAAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsA
+AAAAAAAAAAAAAAAAHwEAAF9yZWxzLy5yZWxzUEsBAi0AFAAGAAgAAAAhAH5cRAHEAAAA2wAAAA8A
+AAAAAAAAAAAAAAAABwIAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAAAwADALcAAAD4AgAAAAA=
+">
+   <v:stroke endarrow="block"/>
+  </v:line><v:line id="Line_x0020_13" o:spid="_x0000_s1035" style='position:absolute;
+   visibility:visible;mso-wrap-style:square' from="6192,9072" to="6192,9360"
+   o:connectortype="straight" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQBTK54PwgAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRE/LasJA
+FN0L/YfhFtzpxBaCREcRS0G7KPUBurxmrkk0cyfMjEn6951FweXhvOfL3tSiJecrywom4wQEcW51
+xYWC4+FzNAXhA7LG2jIp+CUPy8XLYI6Zth3vqN2HQsQQ9hkqKENoMil9XpJBP7YNceSu1hkMEbpC
+aoddDDe1fEuSVBqsODaU2NC6pPy+fxgF3+8/abvafm360za95B+7y/nWOaWGr/1qBiJQH57if/dG
+K5jG9fFL/AFy8QcAAP//AwBQSwECLQAUAAYACAAAACEA2+H2y+4AAACFAQAAEwAAAAAAAAAAAAAA
+AAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQItABQABgAIAAAAIQBa9CxbvwAAABUBAAALAAAA
+AAAAAAAAAAAAAB8BAABfcmVscy8ucmVsc1BLAQItABQABgAIAAAAIQBTK54PwgAAANsAAAAPAAAA
+AAAAAAAAAAAAAAcCAABkcnMvZG93bnJldi54bWxQSwUGAAAAAAMAAwC3AAAA9gIAAAAA
+"/>
+  <v:line id="Line_x0020_14" o:spid="_x0000_s1036" style='position:absolute;
+   flip:x;visibility:visible;mso-wrap-style:square' from="4320,9360" to="6192,9360"
+   o:connectortype="straight" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQBwBRJ/xQAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9BawIx
+FITvhf6H8Aq9lJq1FNmuRpFCwYOXqqx4e25eN8tuXrZJ1O2/bwTB4zAz3zCzxWA7cSYfGscKxqMM
+BHHldMO1gt326zUHESKyxs4xKfijAIv548MMC+0u/E3nTaxFgnAoUIGJsS+kDJUhi2HkeuLk/Thv
+MSbpa6k9XhLcdvItyybSYsNpwWBPn4aqdnOyCmS+fvn1y+N7W7b7/Ycpq7I/rJV6fhqWUxCRhngP
+39orrSAfw/VL+gFy/g8AAP//AwBQSwECLQAUAAYACAAAACEA2+H2y+4AAACFAQAAEwAAAAAAAAAA
+AAAAAAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQItABQABgAIAAAAIQBa9CxbvwAAABUBAAAL
+AAAAAAAAAAAAAAAAAB8BAABfcmVscy8ucmVsc1BLAQItABQABgAIAAAAIQBwBRJ/xQAAANsAAAAP
+AAAAAAAAAAAAAAAAAAcCAABkcnMvZG93bnJldi54bWxQSwUGAAAAAAMAAwC3AAAA+QIAAAAA
+"/>
+  <v:line id="Line_x0020_15" o:spid="_x0000_s1037" style='position:absolute;
+   flip:y;visibility:visible;mso-wrap-style:square' from="4320,6480" to="4320,9360"
+   o:connectortype="straight" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQCA14wIxQAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9BawIx
+FITvhf6H8Aq9lJqtFNmuRpGC0IOXqqx4e25eN8tuXrZJ1O2/bwTB4zAz3zCzxWA7cSYfGscK3kYZ
+COLK6YZrBbvt6jUHESKyxs4xKfijAIv548MMC+0u/E3nTaxFgnAoUIGJsS+kDJUhi2HkeuLk/Thv
+MSbpa6k9XhLcdnKcZRNpseG0YLCnT0NVuzlZBTJfv/z65fG9Ldv9/sOUVdkf1ko9Pw3LKYhIQ7yH
+b+0vrSAfw/VL+gFy/g8AAP//AwBQSwECLQAUAAYACAAAACEA2+H2y+4AAACFAQAAEwAAAAAAAAAA
+AAAAAAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQItABQABgAIAAAAIQBa9CxbvwAAABUBAAAL
+AAAAAAAAAAAAAAAAAB8BAABfcmVscy8ucmVsc1BLAQItABQABgAIAAAAIQCA14wIxQAAANsAAAAP
+AAAAAAAAAAAAAAAAAAcCAABkcnMvZG93bnJldi54bWxQSwUGAAAAAAMAAwC3AAAA+QIAAAAA
+"/>
+  <v:line id="Line_x0020_16" o:spid="_x0000_s1038" style='position:absolute;
+   visibility:visible;mso-wrap-style:square' from="4320,6480" to="6192,6480"
+   o:connectortype="straight" o:gfxdata="UEsDBBQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyQz07DMAyH
+70i8Q+QralM4IITa7kDhCAiNB7ASt43WOlEcyvb2pNu4IODoPz9/n1xv9vOkForiPDdwXVagiI23
+jocG3rdPxR0oScgWJ8/UwIEENu3lRb09BBKV0ywNjCmFe63FjDSjlD4Q50nv44wpl3HQAc0OB9I3
+VXWrjedEnIq03oC27qjHjympx31un0wiTQLq4bS4shrAECZnMGVTvbD9QSnOhDInjzsyuiBXWQP0
+r4R18jfgnHvJr4nOknrFmJ5xzhraRtHWf3Kkpfz/yGo5S+H73hkquyhdjr3R8m2lj09svwAAAP//
+AwBQSwMEFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsAAABfcmVscy8ucmVsc2zPwWrDMAwG4Ptg72B0
+X5TuUMaI01uh19I+gLGVxCy2jGSy9e1nemrHjpL4P0nD4SetZiPRyNnCruvBUPYcYp4tXC/Htw8w
+Wl0ObuVMFm6kcBhfX4Yzra62kC6xqGlKVgtLreUTUf1CyWnHhXKbTCzJ1VbKjMX5LzcTvvf9HuXR
+gPHJNKdgQU5hB+ZyK23zHztFL6w81c5zQp6m6P9TMfB3PtPWFCczVQtB9N4U2rp2HOA44NMz4y8A
+AAD//wMAUEsDBBQABgAIAAAAIQAqYQPMxAAAANsAAAAPAAAAZHJzL2Rvd25yZXYueG1sRI9PawIx
+FMTvQr9DeIXeNGsLVVejiEuhh1rwD56fm+dmcfOybNI1/faNUPA4zMxvmMUq2kb01PnasYLxKANB
+XDpdc6XgePgYTkH4gKyxcUwKfsnDavk0WGCu3Y131O9DJRKEfY4KTAhtLqUvDVn0I9cSJ+/iOosh
+ya6SusNbgttGvmbZu7RYc1ow2NLGUHnd/1gFE1Ps5EQWX4fvoq/Hs7iNp/NMqZfnuJ6DCBTDI/zf
+/tQKpm9w/5J+gFz+AQAA//8DAFBLAQItABQABgAIAAAAIQDb4fbL7gAAAIUBAAATAAAAAAAAAAAA
+AAAAAAAAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAAGAAgAAAAhAFr0LFu/AAAAFQEAAAsA
+AAAAAAAAAAAAAAAAHwEAAF9yZWxzLy5yZWxzUEsBAi0AFAAGAAgAAAAhACphA8zEAAAA2wAAAA8A
+AAAAAAAAAAAAAAAABwIAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAAAwADALcAAAD4AgAAAAA=
+">
+   <v:stroke endarrow="block"/>
+  </v:line></v:group></v:group><![endif]--><!--[if !vml]-->
+
+
+
+<!--[endif]--><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal">
+
+<br clear="ALL">
+
+</p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">Сурет </span></span><span class="annotator-hl"><span lang="RU" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111;
+mso-ansi-language:RU">1</span></span><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111"> - «Әзір»
+қайталану командасының блок схемасы<o:p></o:p></span></span></p><p class="MsoNormal" align="center" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">Оператордың
+</span></span><span class="annotator-hl"><span style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;, serif; color:#111111;mso-ansi-language:EN-US">C</span></span><span class="annotator-hl"><span lang="RU" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111;
+mso-ansi-language:RU">++ </span></span><span class="annotator-hl"><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">программалау
+тілінде&nbsp; жазылу форматы</span></span><span class="annotator-hl"><span lang="RU" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111;mso-ansi-language:
+RU">:<o:p></o:p></span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.0pt;line-height:normal"><span class="annotator-hl"><span lang="RU" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111;mso-ansi-language:
+RU">&nbsp;</span></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.05pt;line-height:normal"><span class="annotator-hl"><i><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;, serif; color:#111111">&nbsp;while </span></i></span><span class="annotator-hl"><i><span lang="RU" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111;mso-ansi-language:
+RU">(</span></i></span><span class="annotator-hl"><i><span lang="KZ" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111">шарт</span></i></span><span class="annotator-hl"><i><span lang="RU" style="font-size:14.0pt;font-family:&quot;Times New Roman&quot;, serif; color:#111111;mso-ansi-language:
+RU">)<o:p></o:p></span></i></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.05pt;line-height:normal"><span class="annotator-hl"><i><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;, serif; color:#111111">{<o:p></o:p></span></i></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.05pt;line-height:normal"><span class="annotator-hl"><i><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;, serif; color:#111111">қайталанатын командалар сериясы<o:p></o:p></span></i></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:1.0cm;line-height:normal">
+</p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:30.05pt;line-height:normal"><span class="annotator-hl"><i><span lang="KZ" style="font-size:14.0pt;
+font-family:&quot;Times New Roman&quot;, serif; color:#111111">}<o:p></o:p></span></i></span></p>
+
+
+									<hr class="major" />
+
+									
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Мазмұны</h2>
+									</header>
+									<ul>
+										<li>
+											<span class="opener">Алгоритм және оның қасиеттері. Алгоритмнің түрлері</span>
+											<ul>
+												<li><a href="1.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="1.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="1.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Сызықтық алгоритмді программалау</span>
+											<ul>
+												<li><a href="2.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="2.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="2.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+											</li>
+												<li>
+											<span class="opener">Тармақталу алгоритімін программалау</span>
+											<ul>
+												<li><a href="3.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="3.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="3.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Кіріктірілген шарттарды программалау. Құрамды шарттарды программалау</span>
+											<ul>
+												<li><a href="4.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="4.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="4.1.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Таңдау операторы</span>
+											<ul>
+												<li><a href="5.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="5.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="5.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Параметрлі программалау, for операторы</span>
+											<ul>
+												<li><a href="6.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="6.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="6.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+                                        <li>
+											<span class="opener">Соңғы шарт бойынша циклдер</span>
+											<ul>
+												<li><a href="7.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="7.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="7.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Алғы шартты циклі және While операторы</span>
+											<ul>
+												<li><a href="8.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="8.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="8.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Ішкі программаларды құру және оларды қолдану</span>
+											<ul>
+												<li><a href="9.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="9.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="9.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Бір өлшемді массив. Бір өлшемді массив элементтерін енгізу және шығару.Белгіленген сипаттары бар элементті іздеу</span>
+											<ul>
+												<li><a href="10.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="10.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="10.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+
+										<li>
+											<span class="opener">Бір өлшемді массив элементтердің орнын ауыстыру.Бір өлшемді массив элементтерін сұрыптау</span>
+											<ul>
+												<li><a href="11.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="11.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="11.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										
+										
+										<li>
+											<span class="opener">Екі өлшемді массив. Екі өлшемді массив элементтерін енгізу және шығару</span>
+											<ul>
+												<li><a href="12.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="12.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="12.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Екі өлшемді массив элементтерін сұрыптау, жолды өшіру</span>
+											<ul>
+												<li><a href="13.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="13.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="13.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Python программалау тілінде PyGame кітапханасы және С++ программалау тілінде графикамен жұмыс.</span>
+											<ul>
+												<li><a href="14.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="14.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="14.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+
+										
+										<li>
+											<span class="opener">Артқы фон мен ойын кейіпкерлер. Анимация</span>
+											<ul>
+												<li><a href="15.1.html">Қысқаша теориялық материалдар</a></li>
+												<li><a href="15.2.html">Демонстрациялық мысалдар</a></li>
+												<li><a href="15.3.html">Өз бетінше орындауға арналған тапсырмалар</a></li>
+											</ul>
+										</li>
+
+
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<!--section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<!--section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+										<li class="icon solid fa-phone">(000) 000-0000</li>
+										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+										Nashville, TN 00000-0000</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
